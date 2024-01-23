@@ -28,7 +28,7 @@ submit = st.button("GENERATE AND TRANSLATE")
 
 
 #start of generating prompts and language translation
-data = pd.read_excel(os.path.join('data', 'language.xlrd'),sheet_name='wiki') #excel file is read here
+data = pd.read_excel(os.path.join('data', 'language.xlsx'),sheet_name='wiki') #excel file is read here
 data.dropna(inplace=True) #all the N/A values are dropped
 lang = data['name'].to_list() #langauge name is inputted into a list called lang
 langlist=tuple(lang)
