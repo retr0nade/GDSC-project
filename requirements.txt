@@ -4,4 +4,4 @@ mtranslate
 gTTS==2.2.3
 google-generativeai
 python-dotenv
-xlrd==1.0.0
+pip install xlrd==1.0.0
