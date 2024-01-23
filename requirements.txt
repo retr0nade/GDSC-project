@@ -1,0 +1,6 @@
+streamlit==1.20.0
+pandas==1.2.4
+mtranslate
+gTTS==2.2.3
+google-generativeai
+python-dotenv
