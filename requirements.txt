@@ -4,3 +4,4 @@ mtranslate
 gTTS==2.2.3
 google-generativeai
 python-dotenv
+xlrd
