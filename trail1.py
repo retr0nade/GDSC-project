@@ -2,7 +2,6 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-import xlrd
 import os
 import pandas as pd
 from mtranslate import translate
